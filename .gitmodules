@@ -1,0 +1,3 @@
+[submodule "Modules"]
+	path = core-modules
+	url = https://github.com/LiteLDev-NET/Modules.git

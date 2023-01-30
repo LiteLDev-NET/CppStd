@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x64</PlatformTarget>
+    <Platforms>x64</Platforms>
+    <Configurations>Release</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="LiteLoader.NET.InteropServices">
+      <HintPath>..\..\core-modules\LiteLoader.NET.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="LiteLoader.NET.InteropServices.Native">
+      <HintPath>..\..\core-modules\LiteLoader.NET.InteropServices.Native.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

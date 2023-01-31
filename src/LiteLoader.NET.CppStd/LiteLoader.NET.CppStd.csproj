@@ -12,10 +12,10 @@
 
   <ItemGroup>
     <Reference Include="LiteLoader.NET.InteropServices">
-      <HintPath>..\..\core-modules\LiteLoader.NET.InteropServices.dll</HintPath>
+      <HintPath>..\..\core_modules\LiteLoader.NET.InteropServices.dll</HintPath>
     </Reference>
     <Reference Include="LiteLoader.NET.InteropServices.Native">
-      <HintPath>..\..\core-modules\LiteLoader.NET.InteropServices.Native.dll</HintPath>
+      <HintPath>..\..\core_modules\LiteLoader.NET.InteropServices.Native.dll</HintPath>
     </Reference>
   </ItemGroup>
 

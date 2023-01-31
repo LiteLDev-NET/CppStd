@@ -32,7 +32,9 @@ jobs:
         dotnet-version: 7.0.x
 
     - name: Restore Dependencies
-      run: dotnet restore
+      run: |
+        git submodule foreach git pull
+        dotnet restore
 
     - name: Build
       run: dotnet build --no-restore

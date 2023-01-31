@@ -33,7 +33,7 @@ jobs:
 
     - name: Restore Dependencies
       run: |
-        git submodule foreach git pull
+        git submodule update --init --remote
         dotnet restore
 
     - name: Build

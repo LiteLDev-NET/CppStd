@@ -51,7 +51,7 @@ echo [INFO] Removing Modules\CppStd
 rd /s /q Modules\CppStd
 
 @REM copy CppStd to Modules
-xcopy /e /y /i /q src\LiteLoader.NET.CppStd\bin\x64\Release\net7.0\LiteLoader.NET.CppStd.dll Modules\CppStd\
+xcopy /e /y /i /q src\LiteLoader.NET.CppStd\bin\x64\Release\net7.0\publish\LiteLoader.NET.CppStd.dll Modules\CppStd\
 
 cd Modules
 for /f "delims=" %%i in ('git status . -s') do set LLNET_MODULE_NOW_STATUS=%%i

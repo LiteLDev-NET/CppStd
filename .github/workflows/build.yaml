@@ -36,9 +36,9 @@ jobs:
 
     - name: Restore dependencies
       run: dotnet restore
-      
+
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet publish --configuration Release
 
     - name: Update Modules
       working-directory: ${{ env.GITHUB_WORKSPACE }}
